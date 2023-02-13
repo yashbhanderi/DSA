@@ -30,6 +30,8 @@ int Knapsack(vector<int> val, vector<int> wt, int W, int n) {
                return Knapsack(val, wt, W, n-1);    // Not Taken ❌
     }
 
+    return 0;
+
 }
 
 int main() {
