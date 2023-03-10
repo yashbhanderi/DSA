@@ -54,31 +54,34 @@ bool canJump(vector<int>& arr) {
         return 1;
 }
 
-int count_steps(vector<int> arr) {
+int count__steps(vector<int> arr) {
     int n = arr.size();
 
-    int last_min_steps_needed = INT_MAX;
-    vector<int> min_steps(n, 0);
-    int 
-    int steps = 0;
+    vector<int> prefix__max(n, 0), min_steps_from_here(n, 0);
 
+    for(int i=0; i<n; i++) {
+        if(i==n-1 || i==0) prefix__max[i] = -1;
+        else prefix__max[i] = max(arr[i], prefix__max[i-1]);
+    }
+
+    int steps = 0;
     for(int i=n-2; i>=0; i--) {
-        if(arr[i]+i >= n-1) {
-            min_steps[i] = 1;
-            last_minimum = min(last_minimum, min_steps[i]);
+        if((n - 1) - i <= arr[i]) {
+            min_steps_from_here[i] = 1;
         }
         else {
-            min_steps[i] = min_steps[i+arr[i]] + 1;
+            
         }
     }
-}
+    
+}   
 
 int main() {
     vector<int> arr = {2, 0, 0};
 
     // ::: Check If you can reach the LAST INDEX :::
 
-    // cout << canJump(arr);
+    cout << canJump(arr);
 
     return 0;
 }
