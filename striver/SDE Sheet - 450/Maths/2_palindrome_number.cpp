@@ -6,52 +6,56 @@ bool isPalindrome(int x) {
     
     
     // *** Method 1:
+/*
+    convert the number into string
+    take two pointer at both the side and traverse them
+    if at any point arr[i] != arr[j] <--------------------FALSEEEEEE !!!
+    otherwise TRUE.
+*/
 
-    // convert the number into string
-    // take two pointer at both the side and traverse them
-    // if at any point arr[i] != arr[j] <--------------------FALSEEEEEE !!!
-    // otherwise TRUE.
+/*
+    string str = to_string(x);
 
-    // string str = to_string(x);
+    int i=0, j=str.size()-1;
 
-    // int i=0, j=str.size()-1;
+    while(i<j) {
+        if(str[i++] != str[j--]) return false;
+    }
 
-    // while(i<j) {
-    //     if(str[i++] != str[j--]) return false;
-    // }
-
-    // return true;
-
-
+    return true;
+*/
 
     // *** Method 2:
 
-    // REVERSE THE NUMBER !!!
+    
+/*  REVERSE THE NUMBER !!!
 
-    // suppose we have a variable rev = 0
+    suppose we have a variable rev = 0
 
-    // 1214
-    // rev*0 + 4    = 4
-    // 4*10 + 1     = 41
-    // 41*10 + 2    = 412
-    // 412*10 + 1   = 4121
+    1214
+    rev*0 + 4    = 4
+    4*10 + 1     = 41
+    41*10 + 2    = 412
+    412*10 + 1   = 4121
 
-    // This is how we reverse the number.
+    This is how we reverse the number.
 
-    // BUTTT !!
-    // Here, we'll only look upto half, then compare
+    BUTTT !!
+    Here, we'll only look upto half, then compare
 
-    // Here, we'll go till [ x  > rev  ]
+    Here, we'll go till [ x  > rev  ]
 
-    // Ex. x = 78387
+    Ex. x = 78387
 
-    // x ->     7838    783     78
-    // rev->    7       78      783     We'll compare [ x == rev/10 ]
+    x ->     7838    783     78
+    rev->    7       78      783     We'll compare [ x == rev/10 ]
 
-    // Ex. x = 763387
+    Ex. x = 763387
 
-    // x->      76338   7633    763
-    // rev->    7       78      783     we'll compare [ x == rev ]
+    x->      76338   7633    763
+    rev->    7       78      783     we'll compare [ x == rev ]
+
+*/
 
     if (x < 0 || (x > 0 && x % 10 == 0)) return false;
 
