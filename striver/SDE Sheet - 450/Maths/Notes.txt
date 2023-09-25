@@ -1,0 +1,6 @@
+- Count digits of a number = floor(log10(num) + 1)
+
+- Convert number to string = to_string(num)
+
+- Modula of negative = negative
+    (-321)%10 = -1
