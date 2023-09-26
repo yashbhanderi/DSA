@@ -44,10 +44,28 @@ Method 2:
 
 Euclidian Algorithm
 
+    For a > b
 
-    if(b==0) return a;
+    - GCD(a, b) = GCD(a-b, b)   <---------- This is the Euclidian principle
 
-    return GCD(b, a%b);
+    Okay, so algorithm is simple
+    Once substraction is Zero -> other number is GCD
+
+    
+    --- Using substraction
+
+        if(b==0) return a;
+
+        if(b > a) swap(a, b);
+
+        return GCD(a-b, b);
+
+    --- Using Modula Operator
+
+        if(b==0) return a;
+
+        return GCD(b, a%b);
+
 
 */
 
