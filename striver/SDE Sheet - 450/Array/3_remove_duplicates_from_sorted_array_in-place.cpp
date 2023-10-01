@@ -17,6 +17,4 @@ int main() {
     }
 
     return mp.size();
-
-    return 0;
 }
