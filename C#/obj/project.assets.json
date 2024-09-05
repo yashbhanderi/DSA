@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C#\\C#.csproj",
+      "projectUniqueName": "D:\\DSA\\C#\\C#.csproj",
       "projectName": "C#",
-      "projectPath": "D:\\C#\\C#.csproj",
+      "projectPath": "D:\\DSA\\C#\\C#.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "D:\\C#\\obj\\",
+      "outputPath": "D:\\DSA\\C#\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",

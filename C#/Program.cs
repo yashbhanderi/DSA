@@ -1,5 +1,7 @@
 ﻿using Trees.BinarySearchTrees;
 using Trees.BinaryTrees;
+using Practice;
+using Leetcode;
 
 namespace DSA
 {
@@ -24,9 +26,25 @@ namespace DSA
             // CheckBST.Run();
             // KthSmallest.Run();
             // LCA.Run();
-            GenerateBSTFromPreorder.Run();
+            // GenerateBSTFromPreorder.Run();
+            // TwoSum.Run();
+            // InorderSuccessor.Run();
+            // RecoverBST.Run();
+            // LargestBST.Run();
 
             
+            #endregion
+        
+            #region Practice
+
+            // Practice.Practice.Run();
+
+            #endregion
+        
+            #region Leetcode
+                // SumofDigitsofStringAfterConvert.Run();
+                // WalkingRobotSimulation.Run();
+                FindMissingObservations.Run();
             #endregion
         }
     }

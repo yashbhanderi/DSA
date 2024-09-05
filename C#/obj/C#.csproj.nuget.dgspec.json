@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\C#\\C#.csproj": {}
+    "D:\\DSA\\C#\\C#.csproj": {}
   },
   "projects": {
-    "d:\\C#\\C#.csproj": {
+    "D:\\DSA\\C#\\C#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\C#\\C#.csproj",
+        "projectUniqueName": "D:\\DSA\\C#\\C#.csproj",
         "projectName": "C#",
-        "projectPath": "d:\\C#\\C#.csproj",
+        "projectPath": "D:\\DSA\\C#\\C#.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "d:\\C#\\obj\\",
+        "outputPath": "D:\\DSA\\C#\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
