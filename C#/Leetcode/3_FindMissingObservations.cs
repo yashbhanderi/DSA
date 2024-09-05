@@ -12,16 +12,25 @@ public class FindMissingObservations {
 
         var sum = ((rolls.Length + n)*mean) - total;
 
-        if(sum > n*6 || sum < n) return [..ans.c];
+        if(sum > n*6 || sum < n) return [..ans];
 
         int avgValue = sum/n;
+        int remain = sum%n;
 
-        while(n-- > 1) {
+        int j = n;
+        while(j > 0) {
             ans.Add(avgValue);
-            sum -= avgValue;
+            j--;
         }
 
-        ans.Add(sum);
+        int i = 0;
+        while(remain > 0 && i < n) {
+            if(ans[i] < 6) {
+                ans[i]++;
+                remain--;
+            }
+            i++;
+        }
 
         return [..ans];
     }
