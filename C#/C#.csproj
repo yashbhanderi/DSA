@@ -6,6 +6,7 @@
     <RootNamespace>C_</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <NoWarn>$(NoWarn);ALL</NoWarn>
   </PropertyGroup>
 
 </Project>

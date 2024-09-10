@@ -44,7 +44,10 @@ namespace DSA
             #region Leetcode
                 // SumofDigitsofStringAfterConvert.Run();
                 // WalkingRobotSimulation.Run();
-                FindMissingObservations.Run();
+                // FindMissingObservations.Run();
+                // DeleteNodesFromLinkedListPresentInArray.Run();
+                LinkedListInBinaryTree.Run();    // Pending
+                // SplitLinkedListInParts.Run();
             #endregion
         }
     }
