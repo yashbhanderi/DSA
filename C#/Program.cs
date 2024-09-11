@@ -2,6 +2,7 @@
 using Trees.BinaryTrees;
 using Practice;
 using Leetcode;
+using C_.Recursion;
 
 namespace DSA
 {
@@ -46,9 +47,15 @@ namespace DSA
                 // WalkingRobotSimulation.Run();
                 // FindMissingObservations.Run();
                 // DeleteNodesFromLinkedListPresentInArray.Run();
-                LinkedListInBinaryTree.Run();    // Pending
+                // LinkedListInBinaryTree.Run();
                 // SplitLinkedListInParts.Run();
             #endregion
+
+            #region Recursion
+
+                _1_Power.Run();
+
+            #endregion 
         }
     }
 }
