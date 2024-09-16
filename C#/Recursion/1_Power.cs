@@ -40,6 +40,6 @@ public class _1_Power
         double x = 1.0000;
         int n = -2147483648;
 
-        System.Console.WriteLine(Power(x, Math.Abs(n)));
+        System.Console.WriteLine(Power(x, n));
     }
 }

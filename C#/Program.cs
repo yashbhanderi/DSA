@@ -53,7 +53,9 @@ namespace DSA
 
             #region Recursion
 
-                _1_Power.Run();
+                // _1_Power.Run();
+                // _2_CountGoodNumbers.Run();
+                _3_SortStack.Run();
 
             #endregion 
         }
