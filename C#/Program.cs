@@ -55,7 +55,9 @@ namespace DSA
 
                 // _1_Power.Run();
                 // _2_CountGoodNumbers.Run();
-                _3_SortStack.Run();
+                // _3_SortStack.Run();
+                // _4_ReverseStack.Run();
+                _5_GenerateParentheses.Run();
 
             #endregion 
         }
