@@ -1,6 +1,6 @@
 using System;
 
-namespace C_.Recursion;
+namespace Recursion;
 
 public class _2_CountGoodNumbers
 {

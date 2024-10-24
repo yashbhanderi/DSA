@@ -2,7 +2,7 @@
 using Trees.BinaryTrees;
 using Practice;
 using Leetcode;
-using C_.Recursion;
+using Recursion;
 
 namespace DSA
 {
@@ -57,7 +57,9 @@ namespace DSA
                 // _2_CountGoodNumbers.Run();
                 // _3_SortStack.Run();
                 // _4_ReverseStack.Run();
-                _5_GenerateParentheses.Run();
+                // _5_GenerateParentheses.Run();
+                // _6_Subsequences.Run();
+                _7_CountSubsequencesWithSumK.Run();
 
             #endregion 
         }
