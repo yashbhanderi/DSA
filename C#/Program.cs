@@ -49,6 +49,8 @@ namespace DSA
                 // DeleteNodesFromLinkedListPresentInArray.Run();
                 // LinkedListInBinaryTree.Run();
                 // SplitLinkedListInParts.Run();
+                _7_SortingTheSentence.Run();
+
             #endregion
 
             #region Recursion
@@ -59,7 +61,7 @@ namespace DSA
                 // _4_ReverseStack.Run();
                 // _5_GenerateParentheses.Run();
                 // _6_Subsequences.Run();
-                _7_CountSubsequencesWithSumK.Run();
+                // _7_CountSubsequencesWithSumK.Run();
 
             #endregion 
         }
