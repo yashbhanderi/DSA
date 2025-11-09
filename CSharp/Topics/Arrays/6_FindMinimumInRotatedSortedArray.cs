@@ -33,10 +33,10 @@ namespace CSharp.Topics.Arrays
                     right = prevIndex;
                 }
 
-                if(left == n-1)
+                if (left == n - 1)
                 {
                     left = 0;
-                    right = 
+                    // right = 
                 }
             }
 
@@ -48,7 +48,7 @@ namespace CSharp.Topics.Arrays
             // var arr = new int[] { 4, 5, 6, 7, 0, 1, 2 };
             // var arr = new int[] { 0, 1, 2, 3, 4, 5, 6, 7 };
             // var arr = new int[] { 7, 6, 5, 4, 3, 2, 1, 0 };
-            var arr = new int[] { 2,3,4,5,1 };
+            var arr = new int[] { 2, 3, 4, 5, 1 };
             System.Console.WriteLine(FindMin(arr));
         }
     }
