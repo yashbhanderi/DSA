@@ -1,0 +1,73 @@
+{
+  "editor.fontFamily": "'Fira Code', monospace",
+  "code-runner.executorMap": {
+    "csharp": "cd d:\\DSA\\CSharp && dotnet run"
+  },
+  "code-runner.runInTerminal": true,
+  "code-runner.saveAllFilesBeforeRun": true,
+  "code-runner.saveFileBeforeRun": true,
+  "explorer.confirmDelete": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "extensions.ignoreRecommendations": true,
+  "csharp.experimental.debug.hotReload": true,
+  "workbench.activityBar.location": "top",
+  "workbench.editor.customLabels.patterns": {
+    "**/app/**/page.js": "PAGE ${dirname}"
+  },
+  "files.autoSave": "afterDelay",
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "javascript": false,
+    "csharp": false
+  },
+  "workbench.colorTheme": "One Dark Pro Darker",
+
+  // -------------------------------------------------------- C# ---------------------------------------------
+
+  // ———————————————— PERFORMANCE ————————————————
+  // Run OmniSharp on .NET 7+ instead of the built‑in Mono
+  "omnisharp.useModernNet": true,
+  "omnisharp.path": "latest",
+
+  // Disable telemetry & extra logging
+  "omnisharp.loggingLevel": "Warning",
+  "telemetry.enableTelemetry": false,
+
+  // Exclude big folders from file‑watchers
+  "files.watcherExclude": {
+    "**/node_modules": true,
+    "**/bin": true,
+    "**/obj": true
+  },
+
+  // —————————————– INTELLISENSE & LINTING —————————————–
+  // Enable full Roslyn analyzers & code fixes
+  "omnisharp.enableRoslynAnalyzers": true,
+  "omnisharp.enableEditorConfigSupport": true,
+
+  // Show analyzer warnings/errors inline
+  "csharp.suppressDotnetInstallWarning": true,
+  "csharp.format.enable": true,
+
+  // ——————————————— FORMATTING ———————————————
+  // Format on save & on paste
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+
+  // Use your .editorconfig if present
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.fixAll.csharp": "explicit"
+  },
+
+  // ——————————————— RUNNING CODE ———————————————
+  // Enable “Run Code” snippets
+  "code-runner.clearPreviousOutput": true,
+  "dotnet.formatting.organizeImportsOnFormat": true
+}
