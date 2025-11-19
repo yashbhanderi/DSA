@@ -1,5 +1,6 @@
 ﻿using Arrays = CSharp.Topics.Arrays;
 using Hashing = CSharp.Topics.Hashing;
+using SlidingWindow = CSharp.Topics.SlidingWindow;
 using Strings = CSharp.Topics.Strings;
 using TwoPointers = CSharp.Topics.TwoPointers;
 
@@ -28,4 +29,10 @@ using TwoPointers = CSharp.Topics.TwoPointers;
 // TwoPointers.RemoveDuplicatesFromSortedArray.Run();
 // TwoPointers.MoveZeroes.Run();
 // TwoPointers.ContainerWithMostWater.Run();
-TwoPointers.TrappingRainWater.Run();
+// TwoPointers.TrappingRainWater.Run();
+
+// SlidingWindow.MaximumAverageSubarrayI.Run();
+// SlidingWindow.MaximumSizeSubarraySum.Run();
+// SlidingWindow.LongestRepeatingCharacterReplacement.Run();
+// SlidingWindow.PermutationInString.Run();
+SlidingWindow.MinimumWindowSubstring.Run();
