@@ -1,5 +1,6 @@
 ﻿using Arrays = CSharp.Topics.Arrays;
 using Hashing = CSharp.Topics.Hashing;
+using Matrix = CSharp.Topics.Matrix;
 using SlidingWindow = CSharp.Topics.SlidingWindow;
 using Strings = CSharp.Topics.Strings;
 using TwoPointers = CSharp.Topics.TwoPointers;
@@ -15,6 +16,8 @@ using TwoPointers = CSharp.Topics.TwoPointers;
 // Arrays.FindFirstAndLastPositionOfElementInSortedArray.Run();
 // Arrays.SearchInRotatedSortedArray.Run();
 // Arrays.ThreeSum.Run();
+// Arrays.MergeIntervals.Run();
+Arrays.InsertIntervals.Run();
 
 // Strings.ValidPalindrome.Run();
 // Strings.ValidAnagram.Run();
@@ -35,4 +38,7 @@ using TwoPointers = CSharp.Topics.TwoPointers;
 // SlidingWindow.MaximumSizeSubarraySum.Run();
 // SlidingWindow.LongestRepeatingCharacterReplacement.Run();
 // SlidingWindow.PermutationInString.Run();
-SlidingWindow.MinimumWindowSubstring.Run();
+// SlidingWindow.MinimumWindowSubstring.Run();
+
+// Matrix.RotateImage.Run();
+Matrix.SetMatrixZeroes.Run();
