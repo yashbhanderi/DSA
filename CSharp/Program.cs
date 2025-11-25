@@ -1,5 +1,7 @@
-﻿using Arrays = CSharp.Topics.Arrays;
+﻿using CSharp.Topics.LinkedLists;
+using Arrays = CSharp.Topics.Arrays;
 using Hashing = CSharp.Topics.Hashing;
+using LinkedLists = CSharp.Topics.LinkedLists;
 using Matrix = CSharp.Topics.Matrix;
 using SlidingWindow = CSharp.Topics.SlidingWindow;
 using Strings = CSharp.Topics.Strings;
@@ -17,7 +19,7 @@ using TwoPointers = CSharp.Topics.TwoPointers;
 // Arrays.SearchInRotatedSortedArray.Run();
 // Arrays.ThreeSum.Run();
 // Arrays.MergeIntervals.Run();
-Arrays.InsertIntervals.Run();
+// Arrays.InsertIntervals.Run();
 
 // Strings.ValidPalindrome.Run();
 // Strings.ValidAnagram.Run();
@@ -41,4 +43,14 @@ Arrays.InsertIntervals.Run();
 // SlidingWindow.MinimumWindowSubstring.Run();
 
 // Matrix.RotateImage.Run();
-Matrix.SetMatrixZeroes.Run();
+// Matrix.SetMatrixZeroes.Run();
+
+// LinkedLists.ReverseLinkedList.Run();
+// LinkedLists.MergeTwoSortedLists.Run();
+// LinkedLists.LinkedListCycle1.Run();
+// LinkedLists.MiddleOfLinkedList.Run();
+// LinkedLists.PalindromeLinkedList.Run();
+// LinkedLists.ReorderList.Run();
+// LinkedLists.RemoveDuplicatesFromSortedList1.Run();
+// LinkedLists.RemoveDuplicatesFromSortedList2.Run();
+LinkedLists.AddTwoNumbers.Run();
