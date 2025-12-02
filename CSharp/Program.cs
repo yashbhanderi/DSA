@@ -4,6 +4,7 @@ using Hashing = CSharp.Topics.Hashing;
 using LinkedLists = CSharp.Topics.LinkedLists;
 using Matrix = CSharp.Topics.Matrix;
 using SlidingWindow = CSharp.Topics.SlidingWindow;
+using Stack = CSharp.Topics.StackQueue;
 using Strings = CSharp.Topics.Strings;
 using TwoPointers = CSharp.Topics.TwoPointers;
 
@@ -53,4 +54,18 @@ using TwoPointers = CSharp.Topics.TwoPointers;
 // LinkedLists.ReorderList.Run();
 // LinkedLists.RemoveDuplicatesFromSortedList1.Run();
 // LinkedLists.RemoveDuplicatesFromSortedList2.Run();
-LinkedLists.AddTwoNumbers.Run();
+// LinkedLists.AddTwoNumbers.Run();
+// LinkedLists.CopyListWithRandomPointer.Run();
+// LinkedLists.IntersectionOfTwoLinkedLists.Run();
+// LinkedLists.SortList.Run();
+// LinkedLists.ReverseNodesInKGroup.Run();
+
+
+// Stack.ValidParentheses.Run();
+// Stack.NextGreaterElement1.Run();
+// Stack.EvaluateReversePolishNotation.Run();
+// Stack.DailyTemperatures.Run();
+// Stack.LargestRectangleInHistogram.Run();
+// Stack.TrappingRainWater.Run();
+// Stack.SlidingWindowMaximum.Run();
+Stack.LRUCache.Run();
