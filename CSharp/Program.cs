@@ -1,5 +1,6 @@
 ﻿using CSharp.Topics.LinkedLists;
 using Arrays = CSharp.Topics.Arrays;
+using BinarySearch = CSharp.Topics.BinarySearch;
 using Hashing = CSharp.Topics.Hashing;
 using LinkedLists = CSharp.Topics.LinkedLists;
 using Matrix = CSharp.Topics.Matrix;
@@ -68,4 +69,13 @@ using TwoPointers = CSharp.Topics.TwoPointers;
 // Stack.LargestRectangleInHistogram.Run();
 // Stack.TrappingRainWater.Run();
 // Stack.SlidingWindowMaximum.Run();
-Stack.LRUCache.Run();
+// Stack.LRUCache.Run();
+
+// BinarySearch.BinarySearch.Run();
+// BinarySearch.FirstBadVersion.Run();
+// BinarySearch.SearchInsertPosition.Run();
+// BinarySearch.FindPeakElement.Run();
+// BinarySearch.SearchIn2DMatrix.Run();
+// BinarySearch.KokoEatingBananas.Run();
+// BinarySearch.MinimumNumberOfDaysToMakeMBouquets.Run();
+BinarySearch.CapacityToShipPackagesWithinDDays.Run();
