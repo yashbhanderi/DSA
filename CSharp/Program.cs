@@ -4,10 +4,12 @@ using BinarySearch = CSharp.Topics.BinarySearch;
 using Hashing = CSharp.Topics.Hashing;
 using LinkedLists = CSharp.Topics.LinkedLists;
 using Matrix = CSharp.Topics.Matrix;
+using Recursion = CSharp.Topics.Recursion;
 using SlidingWindow = CSharp.Topics.SlidingWindow;
 using Stack = CSharp.Topics.StackQueue;
 using Strings = CSharp.Topics.Strings;
 using TwoPointers = CSharp.Topics.TwoPointers;
+using BinaryTrees = CSharp.Topics.Trees.BinaryTrees;
 
 // Arrays.TwoSum.Run();
 // Arrays.BestTimeToBuyAndSellStock.Run();
@@ -79,4 +81,9 @@ using TwoPointers = CSharp.Topics.TwoPointers;
 // BinarySearch.KokoEatingBananas.Run();
 // BinarySearch.MinimumNumberOfDaysToMakeMBouquets.Run();
 // BinarySearch.CapacityToShipPackagesWithinDDays.Run();
-BinarySearch.SplitArrayLargestSum.Run();
+// BinarySearch.SplitArrayLargestSum.Run();
+
+// Recursion.Basics.Run();
+// Recursion.Subsets.Run();
+
+BinaryTrees.InOrderTraversal.Run();
