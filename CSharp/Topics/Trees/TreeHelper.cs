@@ -1,4 +1,6 @@
-﻿namespace CSharp.Topics.Trees;
+﻿using System.Text;
+
+namespace CSharp.Topics.Trees;
 
 public class TreeNode
 {
@@ -68,5 +70,41 @@ public static class TreeHelper
         }
         
         return root;
+    }
+
+    public static string PrintLevelOrderTraversal(TreeNode treeNode)
+    {
+        var ans = new StringBuilder();
+        if (treeNode == null) return ans.ToString();
+        
+        var root = treeNode;
+        var q = new Queue<TreeNode>();
+        q.Enqueue(root);
+        ans.Append(root.val);
+        int i = 1;
+        
+        while (q.Count > 0) {
+            var node = q.Dequeue();
+            
+            if (node?.left is not null) {
+                q.Enqueue(node.left);
+                ans.Append("|" + node.left.val);
+            }
+            else
+            {
+                ans.Append("|" + "null");
+            }
+            
+            if (node?.right is not null) {
+                q.Enqueue(node.right);
+                ans.Append("|" + node.right.val);
+            }
+            else
+            {
+                ans.Append("|" + "null");
+            }
+        }
+        
+        return ans.ToString();
     }
 }

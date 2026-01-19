@@ -6,12 +6,18 @@ public class LowestCommonAncestor
     {
         if (root is null) return null;
 
+        if(root == p || root == q) return root;
+
         var leftTree = LCA(root.left, p, q);
         var rightTree = LCA(root.right, p, q);
 
         if (leftTree is not null && rightTree is not null) return root;
 
-        if (root == p || root == q) return root;
+        if((leftTree is not null || rightTree is not null) 
+           && (root == p || root == q)) return root; 
+
+        if(leftTree is not null) return leftTree;
+        if(rightTree is not null) return rightTree;
         return null;
     }
 
