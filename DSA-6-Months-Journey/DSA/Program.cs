@@ -7,7 +7,7 @@ namespace DSA
     {
         private static void Main(string[] args)
         {
-            MinimumCostToConnectAllPoints.Main();
+            SwimInRisingWater.Main();
         }
     }
 }
