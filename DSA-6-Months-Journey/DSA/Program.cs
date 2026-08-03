@@ -7,7 +7,7 @@ namespace DSA
     {
         private static void Main(string[] args)
         {
-            SwimInRisingWater.Main();
+            MinimumCostToMakeAtLeastOneValidPathInAGrid.Main();
         }
     }
 }
